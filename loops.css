@@ -1,0 +1,57 @@
+#filters {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 35px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #cfb53b;
+  height: 520px;
+  width: 420px;
+  font-style: italic;
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+  margin-top: 50px;
+}
+.cir {
+  position: absolute;
+  z-index: 10;
+  background-color: rgb(0, 0, 0);
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  color: #cfb53b;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cir1 {
+  top: -5%;
+  right: -5%;
+}
+
+.cir2 {
+  bottom: -5%;
+  left: -5%;
+}
+.card img {
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 65%;
+}
+
+p {
+  color: white;
+  left: 15%;
+  top: 8%;
+  font-size: 18px;
+}

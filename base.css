@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  position: relative;
+}
+
+header {
+  height: 50px;
+}
+
+#hero > h2 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 40px;
+}
+
+body {
+  background-color: black;
+}
+.First {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #cfb53b;
+  width: 100px;
+  border-radius: 20%;
+}
