@@ -20,22 +20,23 @@
   flex-direction: column;
   overflow: hidden;
   background-color: #cfb53b;
-  height: 520px;
-  width: 420px;
+  width: 100%;
+  max-width: 400px;
   font-style: italic;
   font-family: "Federant", serif;
   font-weight: 400;
   font-style: normal;
   font-style: italic;
   margin-top: 50px;
+  padding: 20px 0px;
 }
 .cir {
   position: absolute;
   z-index: 10;
   background-color: rgb(0, 0, 0);
-  width: 140px;
-  height: 140px;
-  border-radius: 100%;
+  width: 25%;
+  height: 23%;
+  border-radius: 999px;
   color: #cfb53b;
   text-align: center;
   display: flex;
@@ -60,7 +61,7 @@
 
 p {
   color: white;
-  left: 15%;
-  top: 8%;
   font-size: 18px;
+  max-width: 60%;
+  text-align: center;
 }

@@ -24,6 +24,7 @@ header {
   justify-content: center;
   gap: 5%;
   margin-top: 40px;
+  margin: 30px;
 }
 
 body {
@@ -48,5 +49,10 @@ body {
 @media screen and (max-width: 600px) {
   #hero > h2 {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cir {
+    font-size: 10px;
   }
 }
