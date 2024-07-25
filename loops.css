@@ -1,9 +1,18 @@
 #filters {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1em;
   margin-top: 35px;
 }
+
+#filters button {
+  background-color: #cfb53b;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+
 .card {
   display: flex;
   justify-content: center;

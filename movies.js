@@ -64,3 +64,5 @@ document.getElementById("btn_count").addEventListener("click", () => {
 document.getElementById("btn_recent").addEventListener("click", () => {
   show(movies.filter((e) => e.release_date > "2023"));
 });
+
+show(movies);
